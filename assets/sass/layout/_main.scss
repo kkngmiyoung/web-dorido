@@ -1,0 +1,55 @@
+
+/******************************* main *******************************/
+
+
+	#main{@include vendor('flex-grow', '1');@include vendor('flex-shrink', '1');
+		> .inner {
+			@include padding(0, 2.500em);margin:0 auto;max-width:110em;
+			> section{@include padding(2.500em, 0);
+				&:first-of-type{}
+			}
+			.maintop-box.row{margin-left:0;}
+			.maintop-box.row>*{padding:0 0 0 0.625em;}
+			.maintop-box{
+			    > article{
+				    &:nth-of-type(1) .box{background:#ac284d;}
+				    &:nth-of-type(2) .box{background:#fd970e;}
+				    &:nth-of-type(3) .box{background:#08588d;}
+				    &:nth-of-type(4) .box{background:#3d98de;}
+				}
+			    .box{border:none;
+				    h4{color:_palette(c-white);font-weight:normal;}
+				}
+			}
+		}
+
+
+
+		@include breakpoint('<=xlarge') {
+			> .inner {
+				@include padding(0, 2.188em);
+				> section {
+					@include padding(2.188em, 0);
+				}
+			}
+		}
+
+		@include breakpoint('<=large') {
+			> .inner {
+				@include padding(0, 1.250em);
+				> section {
+					@include padding(1.250em, 0);
+				}
+			}
+		}
+
+		@include breakpoint('<=small') {
+			> .inner {
+				@include padding(0, 1em);
+
+				> section {
+					@include padding(1em, 0);
+				}
+			}
+		}
+	}

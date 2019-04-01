@@ -1,0 +1,72 @@
+// Misc.
+	$misc: (
+		z-index-base:		98,
+		z-index-header:		99
+	);
+
+// Duration.
+	$duration: (
+		nav:				0.5s,
+		transition:			0.2s
+	);
+
+// Size.
+	$size: (
+		border-radius:		0.375em,
+		element-sheight:	2.188em,
+		element-height:		2.500em,
+		element-margin:		2em,
+		sidebar-width:		18.750em,
+		sidebar-width-alt:	20em,
+		header-height:	    3.125em,
+		gutter:				3em
+	);
+
+// Font.
+	$font: (
+		family:				('NotoR', sans-serif),
+		family-week:		('NotoL', sans-serif),
+		family-heading:		('NotoM', serif),
+		family-eng:		    ('Open+Sans', sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				400,
+		weight-bold:		600,
+		weight-heading:		700,
+		weight-heading-alt:	400,
+		kerning-heading:	-0.03em
+	);
+
+// Palette.
+	$palette: (
+		bg-alt:				#f5f6f7,
+		fg:					#7f888f,
+		fg-bold:			#3d4449,
+		fg-light:			#9fa3a6,
+
+
+		border-bg:			transparentize(#e6ebed, 0.75),
+		bg:					#f8f8fa,
+		bg-etc:				#ececf1,
+		border:				#dee2e6,
+		c-menuon:			#d5dae0,
+		c-menu:				#9ca8b3,
+		c-gray:				#6c757d,
+		cd-gray:			#5b626b,
+		c-dark:				#333547,
+		dark-border:		#262737,
+		c-white:			#ffffff,
+		c-black:			#000000,
+		accent:				#3c4ccf,
+		accent2:			#4c59c1,
+		c-blue:				#1b81ee,
+		c-purple:			#6f42c1,
+		c-pink:				#e83e8c,
+		c-red:				#ec4561,
+		c-orange:			#fd7e14,
+		c-yellow:			#f8b425,
+		c-green:			#02a499,
+		c-teal:				#20c997,
+		c-cyan:				#38a4f8
+
+	);
+
